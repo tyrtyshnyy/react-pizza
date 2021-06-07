@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
-/reacy-pizza-reload
+/react-pizza-reload
 .pnp.js
 
 # testing
