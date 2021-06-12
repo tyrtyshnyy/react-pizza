@@ -3,7 +3,7 @@ export const setPizzas = (items) => ({
     payload: items
 })
 
-const setIsLoaded = (canIndex) => ({
+export const setIsLoaded = (canIndex) => ({
     type: 'SET_IS_LOADED',
     payload: canIndex
 })

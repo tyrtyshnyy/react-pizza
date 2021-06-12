@@ -1,9 +1,9 @@
-const setCategory = (items) => ({
+export const setCategory = (items) => ({
     type: 'SET_SORT_BY',
     payload: items
 })
 
-const setSortBy = (canIndex) => ({
+export const setSortBy = (canIndex) => ({
     type: 'SET_CATEGORY',
     payload: canIndex
 })
