@@ -9,7 +9,8 @@ function pizzas(state = initialState, action) {
       case 'SET_ITEMS':
         return {
             ...state, 
-            items: action.payload
+            items: action.payload,
+            isLoaded: true
         }
       case 'SET_IS_LOADED':
         return {
